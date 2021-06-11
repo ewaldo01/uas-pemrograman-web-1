@@ -1,0 +1,67 @@
+.dropdown-menu {
+	background-color: orange;
+	border: 1px solid yellow;
+}
+		
+.dropdown-item:hover {
+	background-color: yellow;
+}
+		
+.carousel-item {
+	height: 500px;
+	opacity: 0.5;
+}
+
+.carousel-caption {
+	text-align: left;
+	top: 50px;
+	font-weight: bold;
+	color: red;
+	text-shadow: 0px 0px 10px blue;
+	
+}
+
+h5 {
+	font-size: 35px;
+	font-family: sans-serif;
+}
+
+.explanation {
+	font-size: 25px;
+	font-family: Arial;
+}
+		
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	border: 1px solid black;
+	background-image: none;
+	background-color: green;
+}
+
+.carousel-control-next-icon:after {
+	content: '>';
+	font-size: 55px;
+	color: blue;
+}
+
+.carousel-control-prev-icon:after {
+	content: '<';
+	font-size: 55px;
+	color: blue;
+}
+
+#judul {
+	cursor: pointer;
+	background-color: lime;
+	border: 1px solid black;
+	border-radius: 3px;
+	text-shadow: 0px 0px 10px yellow;
+	color: black;
+}
+
+#judul:hover {
+	background-color: green;
+}
